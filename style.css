@@ -1,0 +1,31 @@
+.custom_modal {
+  display: none;
+  flex-direction: column;
+}
+
+.custom_modal.custom_modal_open {
+  display: flex;
+}
+
+.custom_modal_header {
+
+}
+
+.custom_modal_body {
+  flex: 1;
+}
+
+.custom_modal_footer {
+
+}
+
+.custom_modal_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.custom_modal_hide {
+  display: none !important;
+}

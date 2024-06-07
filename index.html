@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <section id="new_modal" class="custom_modal">
+    <div class="custom_modal_close custom_modal_hide">close</div>
+    <section class="custom_modal_header"></section>
+    <section class="custom_modal_body"></section>
+    <section class="custom_modal_footer"></section>
+  </section>
+
+</body>
+<script src="script.js"></script>
+<script>
+  const newModal = modal({
+    dom: document.querySelector('#new_modal'),
+  });
+  newModal.open();
+</script>
+</html>
